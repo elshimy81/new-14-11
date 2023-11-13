@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first java project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+
+    
+</head>
+<body>
+  <!-- ---------------------------------------------------------------------------------------------- -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <p class="fs-2 text-primary">Beef</p>
+        </a>
+        <img class="logo1" src="images/لوجو ازرق 2.jpg " alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 BRANCHES
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item  text-primary" href="#">CAIRO</a></li>
+                <li><a class="dropdown-item " href="#">ALEXANDRIA</a></li>
+                <li><a class="dropdown-item text-primary" href="#">MANSORA</a></li>
+                <li><a class="dropdown-item " href="#">TANTA</a></li>
+                <li><a class="dropdown-item text-primary" href="#">ZAGAZEG</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item " href="#">Your suggestions </a></li>
+              </ul>
+            </li>
+            </ul>
+          <form class="d-flex primary" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button type="button" class="btn btn-info text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Login
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header bg-info text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3 text-info">
+                        <label for="exampleInputEmail1 " class="form-label"
+                          >Email address</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="exampleInputEmail1"
+                          aria-describedby="emailHelp"
+                        />
+                        <div id="emailHelp" class="form-text">
+                          We'll never share your email with anyone else.
+                        </div>
+                      </div>
+                      <div class="mb-3 text-info">
+                        <label for="exampleInputPassword1 " class="form-label"
+                          >Password</label
+                        >
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="exampleInputPassword1"
+                        />
+                      </div>
+                        <div class="form-check form-switch text-info">
+                          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                          <label class="form-check-label" for="flexSwitchCheckChecked">Remember me</label>
+                        </div>
+                    </form>
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info text-white " > Login</button> 
+                    <button type="button" class="btn btn-info text-white m-r-100" data-bs-dismiss="modal" > Close</button>
+            
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!-- -------------------------------------------------------------------------------- -->
+<section>
+  <div class="sec1">
+  <div id="carouselExampleCaptions" class="carousel slide ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Images/102.jpg" class="d-block w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block fs-2">
+          <h2>Checken Burger</h2>
+          <p>Checken Burger quality is our priority</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./Images/133.jpg" class="d-block w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block fs-2">
+          <h2>Beef Burger</h2>
+          <p>Beef burger of the finest quality</p>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img src="./Images/BWW-All-American-Burger.png" class="d-block w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block fs-2">
+          <h2>Double Burger</h2>
+          <p>Double burger of your choice</p>
+        </div>
+      </div>
+      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+</section>
+<!-- ------------------------------------------------------------------------------------------- -->
+<div class="sec2">
+
+  <div class="products">
+    <div class="row g-0 bg-body-secondary position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+      <p  class="vot10"price="45" > 
+   <button class=" t btn btn-primary " type="submit ">Single Burger </button></p>
+     
+  </div>
+
+  <div class="col-md-6 p-4 ps-md-0">
+    <h2 class="mt-0">Single Burger Ingredients</h2>
+    <p class="p1"> A slice of chicken or meat with delicious cheese, pickled cucumbers, tomatoes, onions, bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame.</p>
+  </div>
+</div>
+<!-- ---------------------------- -->
+<div class="row g-0 bg-body-secondary position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <p class="vot11"price="65" >
+      <button class=" tt btn btn-primary  " type="submit">Double Burger </button></p>
+   
+  </div>
+
+<div class="col-md-6 p-4 ps-md-0">
+<h2 class="mt-0">Double Burger Ingredients</h2>
+<p class="p1"> A Double of chicken or meat with delicious cheese, pickled cucumbers, tomatoes, onions, bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame.</p>
+</div>
+</div>
+<!-- ---------------------------- -->
+<div class="row g-0 bg-body-secondary position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+   <p class="vot1" price="25"  >
+    <button class=" tt btn btn-primary " type="submit">Bread Burger</button></p>
+  </div>
+
+<div class="col-md-6 p-4 ps-md-0">
+<h2 class="mt-0">Bread Burger Ingredients</h2>
+<p class="p1"> A slice of chicken or meat with delicious cheese, pickled cucumbers, tomatoes, onions, bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame.</p>
+</div>
+</div>
+<!-- ---------------------------- -->
+<div class="row g-0 bg-body-secondary position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <p  class="vot2" price="20" >
+      <button class=" tt btn btn-primary " type="submit"> One Sauce</button>
+    </p>
+  </div>
+
+<div class="col-md-6 p-4 ps-md-0">
+<h2 class="mt-0">Sauce Ingredients</h2>
+<p class="p1"> A slice of chicken or meat with delicious cheese, pickled cucumbers, tomatoes, onions, bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame.</p>
+</div>
+</div>
+<!-- ---------------------------- -->
+<div class="row g-0 bg-body-secondary position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <p  class="vot3"price="15" >
+      <button class=" tt btn btn-primary " type="submit">Fresh cola</button>
+    </p>
+  </div>
+
+<div class="col-md-6 p-4 ps-md-0">
+<h2 class="mt-0">Fresh cola Ingredients</h2>
+<p class="p1"> A slice of chicken or meat with delicious cheese, pickled cucumbers, tomatoes, onions, bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame.</p>
+</div>
+</div>
+    <!-- ---------------------------- -->
+    <div class="row g-0 bg-body-secondary position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <p class="vot4" price="25" >
+       <button class=" tt btn btn-primary " type="submit">Fresh Salad</button>
+        </p>
+      </div>
+    
+    <div class="col-md-6 p-4 ps-md-0">
+    <h2 class="mt-0"> Fresh Salad Ingredients</h2>
+    <p class="p1"> A slice of chicken or meat with delicious cheese, pickled cucumbers, tomatoes, onions, bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame.</p>
+    </div>
+    </div>
+    <!-- ---------------------------- -->
+
+    <div class="row g-0 bg-body-secondary position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <p  class="vot5"price="15" >
+           <button class=" tt btn btn-primary " type="submit">One Rizo </button>
+        </p>
+      </div>
+    
+    <div class="col-md-6 p-4 ps-md-0">
+    <h2 class="mt-0">Rizo Ingredients</h2>
+    <p class="p1"> A slice of chicken or meat with delicious cheese, pickled cucumbers, tomatoes, onions, bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame.</p>
+    </div>
+    </div>
+        <!-- ---------------------------- -->
+
+        <div class="row g-0 bg-body-secondary position-relative">
+          <div class="col-md-6 mb-md-0 p-md-4">
+            <p  class="vot6"price="15" >
+               <button class=" tt btn btn-primary " type="submit">Checken Fineger</button>
+            </p>
+          </div>
+        
+        <div class="col-md-6 p-4 ps-md-0">
+        <h2 class="mt-0">Checken Fineger Ingredients</h2>
+        <p class="p1"> A slice of chicken or meat with delicious cheese, pickled cucumbers, tomatoes, onions, bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame bread and barbecue sauce with slices of bread handmade from fine flour, fresh water, light salt and sesame.</p>
+        </div>
+        </div>
+  
+    <!-- ---------------------------- -->
+    <div class="row g-0 bg-body-secondary position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <p  class="vot7"price="10" >    
+        <button class=" tt btn btn-primary " type="submit">Spicy taste</button>
+        </p>
+      </div>
+    
+    <div class="col-md-6 p-4 ps-md-0">
+    <h2 class="mt-0">Spicy taste Ingredients</h2>
+    <p class="p1"> The hot taste used from hot peppers 
+      of Indian origin comes from our farms in India and Sri 
+      Lanka and is grown by farmers who have a long history of 
+      maintaining the quality of our products and distinguishes
+       us from other competitors who buy hot peppers from the
+        local market.</p>
+    </div>
+    </div>
+
+    <!-- ---------------------------- -->
+    <div class="row g-0 bg-body-secondary position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <p  class="vot8"price="10">
+       <button class=" tt btn btn-primary " type="submit">Fresh Pickle</button>
+        </p>
+      </div>
+    
+    <div class="col-md-6 p-4 ps-md-0">
+    <h2 class="mt-0">Pickle Ingredients</h2>
+    <p class="p1"> The pickles provided to customers are handmade 
+      from rose water, and the vegetables come fresh from our 
+      farms. We do not buy them from abroad, and we maintain 
+      the degree of salinity so that the taste is delicious and
+       suits all health conditions that want to eat pickles with meals.</p>
+    </div>
+    </div>
+    <!-- ---------------------------- -->
+    <div class="row g-0 bg-body-secondary position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <p  class="vot9"price="10" >
+              <button class="tt btn btn-primary " type="submit">Delivery Services</button>
+        </p>
+      </div>
+    
+    <div class="col-md-6 p-4 ps-md-0">
+    <h2 class="mt-0">Delivery  Man</h2>
+    <p class="p1"> Our drivers deliver orders hot, complete, 
+      and wrapped in thermal packaging to keep the food warm 
+      and dry. They adhere to the instructions of the Ministry
+       of Health and precautions for
+       transmitting infections such as the Corona 
+       virus and the like by wearing masks and gloves 
+       to ensure the safety of our customers’ health.</p>
+    </div>
+    </div>
+ 
+</ul>
+</div>
+
+<!-- ------------------------------------------------------------------------------------------- -->
+
+ <div class="sec1">
+ <div  id="div1" class="mt-0 p-3 bg-tertiary  fs-2 text-primary text-center rounded">
+  <h2>Meal Ingredients</h2>
+  </div>
+
+  <button  id="showPrice" style="display: none;  " class=" SOSO1 btn btn-info" >Your Bill</button>
+
+  <h2 class="text-center text-light m-3 title" style="font-size: 80px;"></h2>  </div>
+  <div  id="div2" class=" SOSO card p-3 fs-1 shadow-lg text-center rounded" >
+  </div>
+</div>
+
+<!-- ------------------------- -->
+<footer>
+  <div class="sec11team">
+ <div class="sec11teamoverlay">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"> <i class="fab fa-twitter"></i></a>
+    <a href="#">  <i class="fab fa-youtube"></i></a>     
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>     
+    <a href="#">  <i class="fab fa-instagram"></i>  </a>     
+    <a href="#"><i class="fab fa-google-plus-g"></i></a>     
+     </div><!-- sec11teamoverlay -->
+     <div class="sec1">
+      <hr class="  border-top border-3 border-light my-3">
+      <span class=" SOSO text-center d-block title">Copyright &copy; 2023 Mohamed Elshimy, Good Company. All
+        rights</span>
+      <hr class="border-top border-3 border-light my-3">
+  </div> <!-- sec11team -->
+  </div> <!-- end -->
+</div>
+</footer> <!-- footer -->
+<!-- ---------------------------- -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+
+ <script src="js/script.js"></script> 
+</body>
+</html>
